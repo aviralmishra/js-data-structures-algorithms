@@ -1,5 +1,10 @@
 /*
-  Given a string, return true if the string is a palindrome.
+    --- Directions      
+    Given a string, return true if the string is a palindrome.
+
+    --- Examples ---
+    palindrome("abba") === true
+    palindrome("abcdefg") === false
 */
 
 function palindrome(str) {
