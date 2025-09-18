@@ -10,6 +10,15 @@
     capitalize('look, it is working!') --> 'Look, It Is Working!' 
 */
 
-function capitalize(str) { }
+function capitalize(str) {
+    let words = str.split(' ');
+    let capitalized = [];
+
+    for (let word of words) {
+        capitalized.push(word[0].toUpperCase() + word.slice(1))
+    }
+
+    return capitalized.join(' ');
+}
 
 module.exports = capitalize;
