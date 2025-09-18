@@ -21,7 +21,7 @@
  */
 
 function steps(n, row = 0, stair = '') {
-    if (n === row) return;
+    if (n === row) return; // row count reached
 
     if (n === stair.length) {
         console.log(stair);
