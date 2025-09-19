@@ -1,6 +1,6 @@
 /* 
     --- Description
-    Create a queue data structure.  The queue should be a class with 
+    Create a queue data structure.  The queue (FIFO) should be a class with 
     methods 'add' and 'remove'.
     
     Adding to the queue should store an element until it is removed.
